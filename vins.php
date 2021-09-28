@@ -1,11 +1,8 @@
 <?php
-  // définir l'identifiant de la page
-  $page = "vins";
+  $page = 'vins';
 
   // Inclure l'entête
-  include("inclusion/header.php")
-
-
+  include('inclusions/entete.php');
 ?>
     <div class="contenu-principal">
       <div class="citation">
@@ -16,8 +13,8 @@
         </blockquote>
       </div>
       <form class="frm-recherche">
-        <label>Recherche : 
-          <input type="text" name="origine" placeholder="Par pays (exemples : Québec, France, Espagne)">
+        <label><?= $vin_frmEtiquette; ?>
+          <input type="text" name="origine" placeholder="<?= $vin_frmPlaceholder; ?>">
         </label>
       </form>
       <div class="carte">
@@ -613,8 +610,7 @@
         </section>
       </div>
     </div>
-    <?php
-      //inclure le pied de page
-      include("inclusion\piedDePage.php")
-    
-    ?>
+<?php
+  // Inclure le pied de page
+  include('inclusions/pied2page.php');
+?>

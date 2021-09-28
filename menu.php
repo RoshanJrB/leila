@@ -1,11 +1,8 @@
 <?php
-  // définir l'identifiant de la page
-  $page = "menu";
+  $page = 'menu';
 
   // Inclure l'entête
-  include("inclusion/header.php")
-
-
+  include('inclusions/entete.php');
 ?>
     <div class="contenu-principal">
       <div class="citation">
@@ -95,8 +92,7 @@
         </section>
       </div>
     </div>
-    <?php
-      //inclure le pied de page
-      include("inclusion\piedDePage.php")
-    
-    ?>
+<?php
+  // Inclure le pied de page
+  include('inclusions/pied2page.php');
+?>

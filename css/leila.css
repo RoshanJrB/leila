@@ -117,10 +117,6 @@ nav.i18n a:hover {
   margin-top: 40px;
 }
 
-.page-accueil .titre-page {
-  margin-top: 0px;
-}
-
 .titre-page h1 {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: bold;
@@ -134,7 +130,7 @@ nav.i18n a:hover {
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 0.30em;
-  margin: 0px;
+  margin: 0;
   padding: 0;
 }
 
@@ -144,7 +140,7 @@ nav.i18n a:hover {
 }
 
 .info-utile p {
-  margin: 5;
+  margin: 5px;
   font-size: 1.2em;
 }
 
@@ -160,7 +156,7 @@ nav.i18n a:hover {
 
 /* Navigation principale */
 nav.nav-principale {
-  margin: 40px auto 0px auto;
+  margin: 20px auto;
   text-align: center;
 }
 
