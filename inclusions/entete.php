@@ -42,6 +42,20 @@
 
   // D - On est enfin prêt à charger le fichier contenant les textes dans langue choisie
   include('textes/' . $langueChoisie . '-' . $nomsDesLangues[$langueChoisie] . '/i18n.txt.php');
+
+  // gerer le choix d'une citation aléatoire
+  // étape 1 accèder au fichier
+  // remarquer l'interpolation de la variable $page
+  $citationsChaine = file_get_contents("data/citations-$page.json");
+  //echo $citationsChaine;
+
+  // etape 2 interprêter "parser" le code json dans la variable citationChaine
+  $citationTab = json_decode($citationsChaine, true);
+  //afficher le tableau au complet pour le débogage
+  //print_r($citationTab);
+  // afficher uniquement le tableau des citations dans le langue choisie sur le site
+  print_r($citationTab[$langueChoisie]);
+
 ?>
 <!DOCTYPE html>
 <html>

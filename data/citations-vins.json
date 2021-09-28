@@ -1,0 +1,30 @@
+{
+    "fr": [
+        {
+            "texte": "Le vin est innocent, l'ivrogne seul est coupable.",
+            "auteur": "Proverbe Russe"
+        },
+        {
+            "texte": "Trop ou trop peu de vin interdit la vérité.",
+            "auteur": "Vladimir Jankélévitch"
+        },
+        {
+            "texte": "La gourmandise commence quand on n'a plus faim.",
+            "auteur": "Alphonse Daudet"
+        }
+    ],
+    "en": [
+        {
+            "texte": "Ask not what you can do for your country. Ask what’s for lunch.",
+            "auteur": "Orson Welles"
+        },
+        {
+            "texte": "One cannot think well, love well, sleep well, if one has not dined well.",
+            "auteur": "Virginia Woolf"
+        },
+        {
+            "texte": "Everything you see I owe to spaghetti.",
+            "auteur": "Sophia Loren"
+        }
+    ]
+}
