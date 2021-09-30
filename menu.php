@@ -3,13 +3,19 @@
 
   // Inclure l'entête
   include('inclusions/entete.php');
+
+  // inclure la librairie "citation"
+  include('lib/citations.lib.php');
+
+  $citation = citationAleatoire($langueChoisie, 'menu');
+
 ?>
     <div class="contenu-principal">
       <div class="citation">
         <img src="images/menu-citation.jpg" alt="">
         <blockquote>
-          Le plus grand outrage que l'on puisse faire à un gourmand, c'est de l'interrompre dans l'exercice de ses mâchoires.
-          <cite>- Alexandre Balthazar Grimod de la Reynière</cite>
+          <?= $citation['texte']; ?>
+          <cite>- <?= $citation['auteur']; ?></cite>
         </blockquote>
       </div>
       <div class="carte">
