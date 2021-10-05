@@ -1,0 +1,42 @@
+{
+    "Entrées": [
+        {
+            "nom": "Escargots à la crème d'ail",
+            "description":null,
+            "portion": 1,
+            "prix": 32
+        },
+        {
+            "nom": "foie gras de canard poêlé aux coings",
+            "description":"gateau et infusion",
+            "portion": 1,
+            "prix": 32
+        },
+        {
+            "nom": "Jardin de champignons d'automne",
+            "description":"crème de cèpes",
+            "portion": 1,
+            "prix": 32
+        }
+    ],
+    "Poissons": [
+        {
+            "nom": "Sandre à la peau croustillante",
+            "description":"",
+            "portion": 1,
+            "prix": 32
+        },
+        {
+            "nom": "Saint-Pierre rôti",
+            "description":"",
+            "portion": 1,
+            "prix": 32
+        },
+        {
+            "nom": "miam du poissons",
+            "description":"morue séchée à l'huile d'olive",
+            "portion": 1,
+            "prix": 32
+        }
+    ]
+}
